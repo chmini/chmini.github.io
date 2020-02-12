@@ -27,7 +27,7 @@ function greetingUser(userName) {
   form.classList.remove(SHOWING);
   greeting.classList.add(SHOWING);
   toDo.classList.add(SHOWING);
-  greeting.innerText = `Hello ${userName}`;
+  greeting.innerText = `Hello! ${userName}`;
 }
 
 function loadName() {
